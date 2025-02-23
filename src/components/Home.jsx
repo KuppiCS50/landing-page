@@ -7,13 +7,14 @@ const Home = () => {
   const [currentMockup, setCurrentMockup] = useState(0);
 
   const mockupImages = [
-    "/landing-page/img/signup.jpg",
-    "/landing-page/img/otp-modal.jpg",
-    "/landing-page/img/login.jpg",
-    "/landing-page/img/home.jpg",
-    "/landing-page/img/summarizer.jpg",
-    "/landing-page/img/notebook.jpg",
-  ];
+  `${process.env.PUBLIC_URL}/img/signup.jpg`,
+  `${process.env.PUBLIC_URL}/img/otp-modal.jpg`,
+  `${process.env.PUBLIC_URL}/img/login.jpg`,
+  `${process.env.PUBLIC_URL}/img/home.jpg`,
+  `${process.env.PUBLIC_URL}/img/summarizer.jpg`,
+  `${process.env.PUBLIC_URL}/img/notebook.jpg`,
+];
+
 
   useEffect(() => {
     const handleMouseMove = (e) => {

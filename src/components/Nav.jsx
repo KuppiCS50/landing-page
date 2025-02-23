@@ -20,7 +20,7 @@ const Nav = ({ darkMode, setDarkMode, scrolled, activeSection }) => {
           className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent"
           whileHover={{ scale: 1.05 }}
         >
-          <img src="/img/kuppi-icon.png" alt="Kuppi Icon" className="inline-block w-12 h-12 mr-2" />
+          <img src={`${process.env.PUBLIC_URL}/img/kuppi-icon.png`} alt="Kuppi Icon" className="inline-block w-12 h-12 mr-2" />
           Kuppi
         </motion.div>
         <div className="hidden md:flex items-center space-x-8">
