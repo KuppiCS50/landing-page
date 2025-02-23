@@ -7,12 +7,12 @@ const Home = () => {
   const [currentMockup, setCurrentMockup] = useState(0);
 
   const mockupImages = [
-    "/img/signup.jpg",
-    "/img/otp-modal.jpg",
-    "/img/login.jpg",
-    "/img/home.jpg",
-    "/img/summarizer.jpg",
-    "/img/notebook.jpg",
+    "/landing-page/img/signup.jpg",
+    "/landing-page/img/otp-modal.jpg",
+    "/landing-page/img/login.jpg",
+    "/landing-page/img/home.jpg",
+    "/landing-page/img/summarizer.jpg",
+    "/landing-page/img/notebook.jpg",
   ];
 
   useEffect(() => {
