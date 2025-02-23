@@ -48,7 +48,7 @@ const Footer = ({ darkMode }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div className="space-y-10">
             <div className="flex items-center">
-              <img src={`${process.env.PUBLIC_URL}/img/kuppi-icon.png`} alt="Kuppi Icon" className="w-12 h-12 mr-2" />
+              <img src={"img/kuppi-icon.png"} alt="Kuppi Icon" className="w-12 h-12 mr-2" />
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
                 Kuppi
               </span>

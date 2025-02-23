@@ -7,12 +7,12 @@ const Home = () => {
   const [currentMockup, setCurrentMockup] = useState(0);
 
   const mockupImages = [
-  `${process.env.PUBLIC_URL}/img/signup.jpg`,
-  `${process.env.PUBLIC_URL}/img/otp-modal.jpg`,
-  `${process.env.PUBLIC_URL}/img/login.jpg`,
-  `${process.env.PUBLIC_URL}/img/home.jpg`,
-  `${process.env.PUBLIC_URL}/img/summarizer.jpg`,
-  `${process.env.PUBLIC_URL}/img/notebook.jpg`,
+  "img/signup.jpg",
+  "img/otp-modal.jpg",
+  "img/login.jpg",
+  "img/home.jpg",
+  "img/summarizer.jpg",
+  "img/notebook.jpg",
 ];
 
 
@@ -83,7 +83,7 @@ const Home = () => {
             <span className="text-base">AI-Powered Learning Platform</span>
           </motion.div>
           
-          <h1 className="text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+          <h1 className="text-4xl lg:text-7xl font-bold mb-8 leading-tight">
             <span className="text-white">Master Sinhala</span>
             <br />
             <span className="text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 bg-clip-text">
@@ -91,7 +91,7 @@ const Home = () => {
             </span>
           </h1>
           
-          <p className="text-2xl lg:text-3xl text-gray-300 mb-12 leading-relaxed">
+          <p className="text-1xl lg:text-3xl text-gray-300 mb-12 leading-relaxed">
             Summarize notes, Scan documents, Organize notes and Ask questions in Sinhala.
           </p>
 
@@ -102,7 +102,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
               {[
                 { label: "Active Users", value: "pending..." },
                 { label: "Course Completion", value: "pending..." },
@@ -111,12 +111,12 @@ const Home = () => {
               ].map((stat, i) => (
                 <motion.div
                   key={i}
-                  className="px-2"
+                  className="text-center"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.6 + i * 0.1 }}
                 >
-                  <div className="text-lg  font-bold mb-1">{stat.value}</div>
+                  <div className="text-lg font-bold mb-1">{stat.value}</div>
                   <div className="text-xs font-bold text-gray-300">{stat.label}</div>
                 </motion.div>
               ))}

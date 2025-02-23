@@ -53,6 +53,7 @@ const Team = ({ darkMode }) => {
                 whileHover={{ scale: 1.1 }}
                 loading="lazy"
               />
+              {console.log(member.image)}
               <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
               <p
                 className={`mb-2 ${
