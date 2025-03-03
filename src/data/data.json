@@ -12,7 +12,7 @@
     },
     {
       "name": "Sandeepa Gamage",
-      "role": "Frontend",
+      "role": "Frontend Developer",
       "image": "img/team/sandeepa.jpg",
       "bio": "Sandeepa crafts intuitive and engaging user interfaces while also diving into backend development to deliver well-rounded digital experiences.",
       "social": {
@@ -32,7 +32,7 @@
     },
     {
       "name": "Sandaru Malshan",
-      "role": "Backend",
+      "role": "Backend Developer",
       "image": "img/team/sandaru.jpg",
       "bio": "Sandaru specializes in backend systems but often steps into frontend development to create cohesive and responsive applications.",
       "social": {
@@ -42,7 +42,7 @@
     },
     {
       "name": "Semal Yapa",
-      "role": "Backend",
+      "role": "Backend Developer",
       "image": "img/team/semal.jpg",
       "bio": "Semal oversees backend development while collaborating on frontend design, ensuring both functionality and user experience go hand in hand.",
       "social": {
@@ -52,7 +52,7 @@
     },
     {
       "name": "Reshan Silva",
-      "role": "Frontend",
+      "role": "Frontend Developer",
       "image": "img/team/reshan.jpg",
       "bio": "Reshan focuses on building user-friendly interfaces but also contributes to backend development, bridging the gap between design and functionality.",
       "social": {
