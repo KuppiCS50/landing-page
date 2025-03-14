@@ -49,7 +49,7 @@ const Team = ({ darkMode }) => {
               <motion.img
                 src={member.image}
                 alt={`${member.name}, ${member.role}`}
-                className="w-36 h-36 rounded-full mx-auto mb-4 object-cover"
+                className="w-68 h-48 rounded-full mx-auto mb-4 object-cover"
                 whileHover={{ scale: 1.1 }}
                 loading="lazy"
               />
